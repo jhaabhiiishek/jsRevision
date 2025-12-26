@@ -1,7 +1,7 @@
 // Primitive - call by value
 /* 
 	7 types: 
-		String, 
+		String -> '' and "", 
 		Number, 
 		Boolean,
 		null,
