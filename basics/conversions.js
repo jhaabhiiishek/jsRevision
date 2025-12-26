@@ -33,5 +33,40 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 
 let someNumber = 33
 let stringNum = String(someNumber)
-console.log(typeof someNumber);
-console.log(typeof stringNum);
+// console.log(typeof someNumber);
+// console.log(typeof stringNum);
+
+// *********************Operations***********************
+
+let value = 3
+let negValue = -value
+// console.log(negValue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2/2);
+// console.log(2%2);
+// console.log(2**4);
+
+let str1 = "Abhishek"
+let str2 = "Jha"
+
+let str3 = str1+str2
+// console.log(str3);
+
+// console.log(typeof(1+"12"),1+"12");
+// console.log(typeof("1"+2+2),"1"+2+2);//112 the first value is most important
+// console.log(typeof(1+2+"2"),1+2+"2");//122
+
+console.log(+true) //1
+// console.log(true+) //error
+console.log(+"") //0
+
+let num1,num2,num3
+num1=num2=num3 = 2+2
+
+let gameCounter = 100
+console.log(gameCounter++);//prints 100
+console.log(++gameCounter);//prints 101
+
