@@ -5,7 +5,7 @@ tinderUser.id="123abc"
 tinderUser.name="Sammy"
 tinderUser.isLoggedIn=false
 
-console.log(tinderUser);
+// console.log(tinderUser);
 
 const regularUser ={
 	email:"some@gmail.com",
@@ -17,7 +17,7 @@ const regularUser ={
 	}
 }
 
-console.log(regularUser)
+// console.log(regularUser)
 
 const obj1 = {1:"a",2:"b"}
 const obj2 = {3:"a",4:"b"}
@@ -73,9 +73,36 @@ const users=[
 ]
 
 users[1].email //-> correct to access first ka data
-console.log(tinderUser);
-console.log(Object.keys(tinderUser)); //-> Returns keys as Array
-console.log(Object.values(tinderUser)); //-> Returns values as keys
-console.log(Object.entries(tinderUser)); //-> Returns values as keys
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser)); //-> Returns keys as Array
+// console.log(Object.values(tinderUser)); //-> Returns values as keys
+// console.log(Object.entries(tinderUser)); //-> Returns values as keys
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+const course = {
+	courseName:"js in hindi",
+	price:"999",
+	courseTeacher:"Abhishek"
+}
+
+// course.courseTeacher
+
+const {courseTeacher:instructor}=course
+console.log(instructor);
+
+// API:
+
+// JSON
+// {
+// 	"name":"Abhishek",
+// 	"courseName":"jsInHindi",
+// 	"price":"free"
+// }
+
+// [
+// 	{},
+// 	{},
+// 	{}
+// ]
